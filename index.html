@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-Mentor-Challenge</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: hsl(212, 45%, 89%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 667px;
+            width: 375px;
+            margin: 0 auto;
+        }
+
+        .inner{
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 20px;
+            justify-content: center;
+            padding: 15px;
+            margin: auto 15px auto;
+            width: 100%;
+        }
+
+        img{
+            border-radius: 15px;
+            width: 100%;
+        }
+
+        h1{
+            font-family: 'Outfit', sans-serif;
+            font-size: 700;
+            text-align: center;
+            width: 90%;
+            margin: 20px auto 20px;
+        }
+
+        p{
+            color: hsl(220, 15%, 55%);
+            font-family: 'Outfit', sans-serif;
+            font-size: 400;
+            text-align: center;
+            width: 90%;
+            margin: 20px auto 20px;
+        }
+
+        @media only screen and (max-width: 1440px) {
+body {
+    background-color: hsl(212, 45%, 89%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+}
+}
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="inner">
+            <img src="images/image-qr-code.png" alt="Project QR code">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </section>
+</body>
+</html>
